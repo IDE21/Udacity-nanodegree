@@ -4,7 +4,7 @@
 13-1-2022
 
 ### Project Title
-bikeshare.py
+udacity_bikeshare.py
 
 ### Description
 Describe what your project is about and what it does
@@ -13,5 +13,5 @@ Describe what your project is about and what it does
 .csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I want to thank udacity to give me this big chance to have this challenge
 
