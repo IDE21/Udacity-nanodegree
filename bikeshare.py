@@ -19,7 +19,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input("City name: Chicago, New Yoek City or Washington").lower()
+        city = input("Please write a city name: Chicago, New Yoek City or Washington").lower()
         if city not in  CITY_DATA:
             print("invalid")
             continue
@@ -181,7 +181,7 @@ def user_stats(df):
         most_recent = df["Birth_Year"].max()
         print(most_recent)
         most_common_year_of_birth = df["Birth_Year"].mode()[0]
-        print(most_common_year_of_birth)
+        print("most_common_year_of_birth is: ", most_common_year_of_birth)
     else:
         print("NO INFORMATION ABOUT THIS BIRTH YEAR IN THIS CITY")
 
